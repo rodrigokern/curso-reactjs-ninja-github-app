@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -21,13 +21,31 @@
 
 .App-link {
   color: #61dafb;
+} */
+
+* {
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app {
+  padding: 30px;
+}
+
+/* .user-info > div {
+  display: inline-block
+} */
+
+.user-info > img {
+  max-height: 200px;
+  max-width: 200px
+}
+
+.search {
+  margin-bottom: 30px;
+}
+
+.search input {
+  font-size: 30px;
+  padding: 10px;
+  width: 100%;
 }
